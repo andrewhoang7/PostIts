@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49FBCDAC2BB214A700C60817 /* SocialcademyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDAB2BB214A700C60817 /* SocialcademyApp.swift */; };
-		49FBCDAE2BB214A700C60817 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDAD2BB214A700C60817 /* ContentView.swift */; };
-		49FBCDB02BB214A800C60817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FBCDAF2BB214A800C60817 /* Assets.xcassets */; };
-		49FBCDB32BB214A800C60817 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FBCDB22BB214A800C60817 /* Preview Assets.xcassets */; };
-		49FBCDBD2BB214A800C60817 /* SocialcademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDBC2BB214A800C60817 /* SocialcademyTests.swift */; };
-		49FBCDC72BB214A800C60817 /* SocialcademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDC62BB214A800C60817 /* SocialcademyUITests.swift */; };
-		49FBCDC92BB214A800C60817 /* SocialcademyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDC82BB214A800C60817 /* SocialcademyUITestsLaunchTests.swift */; };
+		49FBCDE22BB2152A00C60817 /* SocialcademyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDE12BB2152A00C60817 /* SocialcademyApp.swift */; };
+		49FBCDE42BB2152A00C60817 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDE32BB2152A00C60817 /* ContentView.swift */; };
+		49FBCDE62BB2152B00C60817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FBCDE52BB2152B00C60817 /* Assets.xcassets */; };
+		49FBCDE92BB2152B00C60817 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FBCDE82BB2152B00C60817 /* Preview Assets.xcassets */; };
+		49FBCDF32BB2152B00C60817 /* SocialcademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDF22BB2152B00C60817 /* SocialcademyTests.swift */; };
+		49FBCDFD2BB2152B00C60817 /* SocialcademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDFC2BB2152B00C60817 /* SocialcademyUITests.swift */; };
+		49FBCDFF2BB2152B00C60817 /* SocialcademyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDFE2BB2152B00C60817 /* SocialcademyUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		49FBCDB92BB214A800C60817 /* PBXContainerItemProxy */ = {
+		49FBCDEF2BB2152B00C60817 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 49FBCDA02BB214A700C60817 /* Project object */;
+			containerPortal = 49FBCDD62BB2152A00C60817 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 49FBCDA72BB214A700C60817;
+			remoteGlobalIDString = 49FBCDDD2BB2152A00C60817;
 			remoteInfo = Socialcademy;
 		};
-		49FBCDC32BB214A800C60817 /* PBXContainerItemProxy */ = {
+		49FBCDF92BB2152B00C60817 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 49FBCDA02BB214A700C60817 /* Project object */;
+			containerPortal = 49FBCDD62BB2152A00C60817 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 49FBCDA72BB214A700C60817;
+			remoteGlobalIDString = 49FBCDDD2BB2152A00C60817;
 			remoteInfo = Socialcademy;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		49FBCDA82BB214A700C60817 /* Socialcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Socialcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		49FBCDAB2BB214A700C60817 /* SocialcademyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyApp.swift; sourceTree = "<group>"; };
-		49FBCDAD2BB214A700C60817 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		49FBCDAF2BB214A800C60817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		49FBCDB22BB214A800C60817 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		49FBCDB82BB214A800C60817 /* SocialcademyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialcademyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49FBCDBC2BB214A800C60817 /* SocialcademyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyTests.swift; sourceTree = "<group>"; };
-		49FBCDC22BB214A800C60817 /* SocialcademyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialcademyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49FBCDC62BB214A800C60817 /* SocialcademyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyUITests.swift; sourceTree = "<group>"; };
-		49FBCDC82BB214A800C60817 /* SocialcademyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49FBCDDE2BB2152A00C60817 /* Socialcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Socialcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FBCDE12BB2152A00C60817 /* SocialcademyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyApp.swift; sourceTree = "<group>"; };
+		49FBCDE32BB2152A00C60817 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49FBCDE52BB2152B00C60817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49FBCDE82BB2152B00C60817 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49FBCDEE2BB2152B00C60817 /* SocialcademyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialcademyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FBCDF22BB2152B00C60817 /* SocialcademyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyTests.swift; sourceTree = "<group>"; };
+		49FBCDF82BB2152B00C60817 /* SocialcademyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialcademyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FBCDFC2BB2152B00C60817 /* SocialcademyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyUITests.swift; sourceTree = "<group>"; };
+		49FBCDFE2BB2152B00C60817 /* SocialcademyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		49FBCDA52BB214A700C60817 /* Frameworks */ = {
+		49FBCDDB2BB2152A00C60817 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49FBCDB52BB214A800C60817 /* Frameworks */ = {
+		49FBCDEB2BB2152B00C60817 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49FBCDBF2BB214A800C60817 /* Frameworks */ = {
+		49FBCDF52BB2152B00C60817 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,58 +71,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49FBCD9F2BB214A700C60817 = {
+		49FBCDD52BB2152A00C60817 = {
 			isa = PBXGroup;
 			children = (
-				49FBCDAA2BB214A700C60817 /* Socialcademy */,
-				49FBCDBB2BB214A800C60817 /* SocialcademyTests */,
-				49FBCDC52BB214A800C60817 /* SocialcademyUITests */,
-				49FBCDA92BB214A700C60817 /* Products */,
+				49FBCDE02BB2152A00C60817 /* Socialcademy */,
+				49FBCDF12BB2152B00C60817 /* SocialcademyTests */,
+				49FBCDFB2BB2152B00C60817 /* SocialcademyUITests */,
+				49FBCDDF2BB2152A00C60817 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		49FBCDA92BB214A700C60817 /* Products */ = {
+		49FBCDDF2BB2152A00C60817 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49FBCDA82BB214A700C60817 /* Socialcademy.app */,
-				49FBCDB82BB214A800C60817 /* SocialcademyTests.xctest */,
-				49FBCDC22BB214A800C60817 /* SocialcademyUITests.xctest */,
+				49FBCDDE2BB2152A00C60817 /* Socialcademy.app */,
+				49FBCDEE2BB2152B00C60817 /* SocialcademyTests.xctest */,
+				49FBCDF82BB2152B00C60817 /* SocialcademyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		49FBCDAA2BB214A700C60817 /* Socialcademy */ = {
+		49FBCDE02BB2152A00C60817 /* Socialcademy */ = {
 			isa = PBXGroup;
 			children = (
-				49FBCDAB2BB214A700C60817 /* SocialcademyApp.swift */,
-				49FBCDAD2BB214A700C60817 /* ContentView.swift */,
-				49FBCDAF2BB214A800C60817 /* Assets.xcassets */,
-				49FBCDB12BB214A800C60817 /* Preview Content */,
+				49FBCDE12BB2152A00C60817 /* SocialcademyApp.swift */,
+				49FBCDE32BB2152A00C60817 /* ContentView.swift */,
+				49FBCDE52BB2152B00C60817 /* Assets.xcassets */,
+				49FBCDE72BB2152B00C60817 /* Preview Content */,
 			);
 			path = Socialcademy;
 			sourceTree = "<group>";
 		};
-		49FBCDB12BB214A800C60817 /* Preview Content */ = {
+		49FBCDE72BB2152B00C60817 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				49FBCDB22BB214A800C60817 /* Preview Assets.xcassets */,
+				49FBCDE82BB2152B00C60817 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		49FBCDBB2BB214A800C60817 /* SocialcademyTests */ = {
+		49FBCDF12BB2152B00C60817 /* SocialcademyTests */ = {
 			isa = PBXGroup;
 			children = (
-				49FBCDBC2BB214A800C60817 /* SocialcademyTests.swift */,
+				49FBCDF22BB2152B00C60817 /* SocialcademyTests.swift */,
 			);
 			path = SocialcademyTests;
 			sourceTree = "<group>";
 		};
-		49FBCDC52BB214A800C60817 /* SocialcademyUITests */ = {
+		49FBCDFB2BB2152B00C60817 /* SocialcademyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				49FBCDC62BB214A800C60817 /* SocialcademyUITests.swift */,
-				49FBCDC82BB214A800C60817 /* SocialcademyUITestsLaunchTests.swift */,
+				49FBCDFC2BB2152B00C60817 /* SocialcademyUITests.swift */,
+				49FBCDFE2BB2152B00C60817 /* SocialcademyUITestsLaunchTests.swift */,
 			);
 			path = SocialcademyUITests;
 			sourceTree = "<group>";
@@ -130,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49FBCDA72BB214A700C60817 /* Socialcademy */ = {
+		49FBCDDD2BB2152A00C60817 /* Socialcademy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49FBCDCC2BB214A800C60817 /* Build configuration list for PBXNativeTarget "Socialcademy" */;
+			buildConfigurationList = 49FBCE022BB2152B00C60817 /* Build configuration list for PBXNativeTarget "Socialcademy" */;
 			buildPhases = (
-				49FBCDA42BB214A700C60817 /* Sources */,
-				49FBCDA52BB214A700C60817 /* Frameworks */,
-				49FBCDA62BB214A700C60817 /* Resources */,
+				49FBCDDA2BB2152A00C60817 /* Sources */,
+				49FBCDDB2BB2152A00C60817 /* Frameworks */,
+				49FBCDDC2BB2152A00C60817 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +144,69 @@
 			);
 			name = Socialcademy;
 			productName = Socialcademy;
-			productReference = 49FBCDA82BB214A700C60817 /* Socialcademy.app */;
+			productReference = 49FBCDDE2BB2152A00C60817 /* Socialcademy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		49FBCDB72BB214A800C60817 /* SocialcademyTests */ = {
+		49FBCDED2BB2152B00C60817 /* SocialcademyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49FBCDCF2BB214A800C60817 /* Build configuration list for PBXNativeTarget "SocialcademyTests" */;
+			buildConfigurationList = 49FBCE052BB2152B00C60817 /* Build configuration list for PBXNativeTarget "SocialcademyTests" */;
 			buildPhases = (
-				49FBCDB42BB214A800C60817 /* Sources */,
-				49FBCDB52BB214A800C60817 /* Frameworks */,
-				49FBCDB62BB214A800C60817 /* Resources */,
+				49FBCDEA2BB2152B00C60817 /* Sources */,
+				49FBCDEB2BB2152B00C60817 /* Frameworks */,
+				49FBCDEC2BB2152B00C60817 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				49FBCDBA2BB214A800C60817 /* PBXTargetDependency */,
+				49FBCDF02BB2152B00C60817 /* PBXTargetDependency */,
 			);
 			name = SocialcademyTests;
 			productName = SocialcademyTests;
-			productReference = 49FBCDB82BB214A800C60817 /* SocialcademyTests.xctest */;
+			productReference = 49FBCDEE2BB2152B00C60817 /* SocialcademyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		49FBCDC12BB214A800C60817 /* SocialcademyUITests */ = {
+		49FBCDF72BB2152B00C60817 /* SocialcademyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49FBCDD22BB214A800C60817 /* Build configuration list for PBXNativeTarget "SocialcademyUITests" */;
+			buildConfigurationList = 49FBCE082BB2152B00C60817 /* Build configuration list for PBXNativeTarget "SocialcademyUITests" */;
 			buildPhases = (
-				49FBCDBE2BB214A800C60817 /* Sources */,
-				49FBCDBF2BB214A800C60817 /* Frameworks */,
-				49FBCDC02BB214A800C60817 /* Resources */,
+				49FBCDF42BB2152B00C60817 /* Sources */,
+				49FBCDF52BB2152B00C60817 /* Frameworks */,
+				49FBCDF62BB2152B00C60817 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				49FBCDC42BB214A800C60817 /* PBXTargetDependency */,
+				49FBCDFA2BB2152B00C60817 /* PBXTargetDependency */,
 			);
 			name = SocialcademyUITests;
 			productName = SocialcademyUITests;
-			productReference = 49FBCDC22BB214A800C60817 /* SocialcademyUITests.xctest */;
+			productReference = 49FBCDF82BB2152B00C60817 /* SocialcademyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		49FBCDA02BB214A700C60817 /* Project object */ = {
+		49FBCDD62BB2152A00C60817 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					49FBCDA72BB214A700C60817 = {
+					49FBCDDD2BB2152A00C60817 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
-					49FBCDB72BB214A800C60817 = {
+					49FBCDED2BB2152B00C60817 = {
 						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 49FBCDA72BB214A700C60817;
+						TestTargetID = 49FBCDDD2BB2152A00C60817;
 					};
-					49FBCDC12BB214A800C60817 = {
+					49FBCDF72BB2152B00C60817 = {
 						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 49FBCDA72BB214A700C60817;
+						TestTargetID = 49FBCDDD2BB2152A00C60817;
 					};
 				};
 			};
-			buildConfigurationList = 49FBCDA32BB214A700C60817 /* Build configuration list for PBXProject "Socialcademy" */;
+			buildConfigurationList = 49FBCDD92BB2152A00C60817 /* Build configuration list for PBXProject "Socialcademy" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 49FBCD9F2BB214A700C60817;
-			productRefGroup = 49FBCDA92BB214A700C60817 /* Products */;
+			mainGroup = 49FBCDD52BB2152A00C60817;
+			productRefGroup = 49FBCDDF2BB2152A00C60817 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49FBCDA72BB214A700C60817 /* Socialcademy */,
-				49FBCDB72BB214A800C60817 /* SocialcademyTests */,
-				49FBCDC12BB214A800C60817 /* SocialcademyUITests */,
+				49FBCDDD2BB2152A00C60817 /* Socialcademy */,
+				49FBCDED2BB2152B00C60817 /* SocialcademyTests */,
+				49FBCDF72BB2152B00C60817 /* SocialcademyUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		49FBCDA62BB214A700C60817 /* Resources */ = {
+		49FBCDDC2BB2152A00C60817 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49FBCDB32BB214A800C60817 /* Preview Assets.xcassets in Resources */,
-				49FBCDB02BB214A800C60817 /* Assets.xcassets in Resources */,
+				49FBCDE92BB2152B00C60817 /* Preview Assets.xcassets in Resources */,
+				49FBCDE62BB2152B00C60817 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49FBCDB62BB214A800C60817 /* Resources */ = {
+		49FBCDEC2BB2152B00C60817 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49FBCDC02BB214A800C60817 /* Resources */ = {
+		49FBCDF62BB2152B00C60817 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		49FBCDA42BB214A700C60817 /* Sources */ = {
+		49FBCDDA2BB2152A00C60817 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49FBCDAE2BB214A700C60817 /* ContentView.swift in Sources */,
-				49FBCDAC2BB214A700C60817 /* SocialcademyApp.swift in Sources */,
+				49FBCDE42BB2152A00C60817 /* ContentView.swift in Sources */,
+				49FBCDE22BB2152A00C60817 /* SocialcademyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49FBCDB42BB214A800C60817 /* Sources */ = {
+		49FBCDEA2BB2152B00C60817 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49FBCDBD2BB214A800C60817 /* SocialcademyTests.swift in Sources */,
+				49FBCDF32BB2152B00C60817 /* SocialcademyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49FBCDBE2BB214A800C60817 /* Sources */ = {
+		49FBCDF42BB2152B00C60817 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49FBCDC92BB214A800C60817 /* SocialcademyUITestsLaunchTests.swift in Sources */,
-				49FBCDC72BB214A800C60817 /* SocialcademyUITests.swift in Sources */,
+				49FBCDFF2BB2152B00C60817 /* SocialcademyUITestsLaunchTests.swift in Sources */,
+				49FBCDFD2BB2152B00C60817 /* SocialcademyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		49FBCDBA2BB214A800C60817 /* PBXTargetDependency */ = {
+		49FBCDF02BB2152B00C60817 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 49FBCDA72BB214A700C60817 /* Socialcademy */;
-			targetProxy = 49FBCDB92BB214A800C60817 /* PBXContainerItemProxy */;
+			target = 49FBCDDD2BB2152A00C60817 /* Socialcademy */;
+			targetProxy = 49FBCDEF2BB2152B00C60817 /* PBXContainerItemProxy */;
 		};
-		49FBCDC42BB214A800C60817 /* PBXTargetDependency */ = {
+		49FBCDFA2BB2152B00C60817 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 49FBCDA72BB214A700C60817 /* Socialcademy */;
-			targetProxy = 49FBCDC32BB214A800C60817 /* PBXContainerItemProxy */;
+			target = 49FBCDDD2BB2152A00C60817 /* Socialcademy */;
+			targetProxy = 49FBCDF92BB2152B00C60817 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		49FBCDCA2BB214A800C60817 /* Debug */ = {
+		49FBCE002BB2152B00C60817 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +358,7 @@
 			};
 			name = Debug;
 		};
-		49FBCDCB2BB214A800C60817 /* Release */ = {
+		49FBCE012BB2152B00C60817 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,7 +414,7 @@
 			};
 			name = Release;
 		};
-		49FBCDCD2BB214A800C60817 /* Debug */ = {
+		49FBCE032BB2152B00C60817 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -443,7 +443,7 @@
 			};
 			name = Debug;
 		};
-		49FBCDCE2BB214A800C60817 /* Release */ = {
+		49FBCE042BB2152B00C60817 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -472,7 +472,7 @@
 			};
 			name = Release;
 		};
-		49FBCDD02BB214A800C60817 /* Debug */ = {
+		49FBCE062BB2152B00C60817 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -492,7 +492,7 @@
 			};
 			name = Debug;
 		};
-		49FBCDD12BB214A800C60817 /* Release */ = {
+		49FBCE072BB2152B00C60817 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -512,7 +512,7 @@
 			};
 			name = Release;
 		};
-		49FBCDD32BB214A800C60817 /* Debug */ = {
+		49FBCE092BB2152B00C60817 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -530,7 +530,7 @@
 			};
 			name = Debug;
 		};
-		49FBCDD42BB214A800C60817 /* Release */ = {
+		49FBCE0A2BB2152B00C60817 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -551,43 +551,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49FBCDA32BB214A700C60817 /* Build configuration list for PBXProject "Socialcademy" */ = {
+		49FBCDD92BB2152A00C60817 /* Build configuration list for PBXProject "Socialcademy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49FBCDCA2BB214A800C60817 /* Debug */,
-				49FBCDCB2BB214A800C60817 /* Release */,
+				49FBCE002BB2152B00C60817 /* Debug */,
+				49FBCE012BB2152B00C60817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49FBCDCC2BB214A800C60817 /* Build configuration list for PBXNativeTarget "Socialcademy" */ = {
+		49FBCE022BB2152B00C60817 /* Build configuration list for PBXNativeTarget "Socialcademy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49FBCDCD2BB214A800C60817 /* Debug */,
-				49FBCDCE2BB214A800C60817 /* Release */,
+				49FBCE032BB2152B00C60817 /* Debug */,
+				49FBCE042BB2152B00C60817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49FBCDCF2BB214A800C60817 /* Build configuration list for PBXNativeTarget "SocialcademyTests" */ = {
+		49FBCE052BB2152B00C60817 /* Build configuration list for PBXNativeTarget "SocialcademyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49FBCDD02BB214A800C60817 /* Debug */,
-				49FBCDD12BB214A800C60817 /* Release */,
+				49FBCE062BB2152B00C60817 /* Debug */,
+				49FBCE072BB2152B00C60817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49FBCDD22BB214A800C60817 /* Build configuration list for PBXNativeTarget "SocialcademyUITests" */ = {
+		49FBCE082BB2152B00C60817 /* Build configuration list for PBXNativeTarget "SocialcademyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49FBCDD32BB214A800C60817 /* Debug */,
-				49FBCDD42BB214A800C60817 /* Release */,
+				49FBCE092BB2152B00C60817 /* Debug */,
+				49FBCE0A2BB2152B00C60817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 49FBCDA02BB214A700C60817 /* Project object */;
+	rootObject = 49FBCDD62BB2152A00C60817 /* Project object */;
 }
