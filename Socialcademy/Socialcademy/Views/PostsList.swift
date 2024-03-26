@@ -10,6 +10,7 @@ import SwiftUI
 
 struct PostsList: View {
     private var posts = [Post.testPost]
+    @State private var searchText = ""
     
     var body: some View {
         NavigationView {
@@ -17,6 +18,7 @@ struct PostsList: View {
                 PostRow(post: post)
             }
             .navigationTitle("Posts")
+            .searchable(text: $searchText)
         }
     }
 }
