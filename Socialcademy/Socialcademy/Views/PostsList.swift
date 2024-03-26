@@ -8,12 +8,15 @@
 import Foundation
 import SwiftUI
 
-struct PostList: View {
+struct PostsList: View {
     private var posts = [Post.testPost]
     
     var body: some View {
-        List(posts) { post in
-            Text(post.content)
+        NavigationView {
+            List(posts) { post in
+                PostRow(post: post)
+            }
+            .navigationTitle("Posts")
         }
     }
 }
