@@ -1,5 +1,5 @@
 //
-//  PostsRepositories.swift
+//  PostsRepository.swift
 //  Socialcademy
 //
 //  Created by Andrew Hoang on 3/27/24.
@@ -9,7 +9,7 @@ import Foundation
 import FirebaseFirestore
 import FirebaseFirestoreSwift
 
-struct PostsRepositories {
+struct PostsRepository {
     static let postsReference = Firestore.firestore().collection("posts")
     
     static func create(_ post: Post) async throws {

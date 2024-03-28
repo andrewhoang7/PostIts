@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F6E01BCB-B32D-4575-9E3B-19BAC943917D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80FEE7EB-E018-4D3E-83CC-EC21601875E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Socialcademy/ViewModels/PostsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "makeCreateAction()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80FEE7EB-E018-4D3E-83CC-EC21601875E0 - f2fc1e12bc601507"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 (Socialcademy.Post) async throws -&gt; () in Socialcademy.PostsViewModel.makeCreateAction() -&gt; (Socialcademy.Post) async throws -&gt; ()"
+                  moduleName = "Socialcademy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrew/Documents/Coding/Github/Socialcademy/Socialcademy/Socialcademy/ViewModels/PostsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "80FEE7EB-E018-4D3E-83CC-EC21601875E0 - 8171dafd6731d674"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 (Socialcademy.Post) async throws -&gt; () in Socialcademy.PostsViewModel.makeCreateAction() -&gt; (Socialcademy.Post) async throws -&gt; ()"
+                  moduleName = "Socialcademy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrew/Documents/Coding/Github/Socialcademy/Socialcademy/Socialcademy/ViewModels/PostsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "80FEE7EB-E018-4D3E-83CC-EC21601875E0 - 4747df1862caeee2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 (Socialcademy.Post) async throws -&gt; () in Socialcademy.PostsViewModel.makeCreateAction() -&gt; (Socialcademy.Post) async throws -&gt; ()"
+                  moduleName = "Socialcademy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrew/Documents/Coding/Github/Socialcademy/Socialcademy/Socialcademy/ViewModels/PostsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "80FEE7EB-E018-4D3E-83CC-EC21601875E0 - 71edff9af4060b02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 (Socialcademy.Post) async throws -&gt; () in Socialcademy.PostsViewModel.makeCreateAction() -&gt; (Socialcademy.Post) async throws -&gt; ()"
+                  moduleName = "Socialcademy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrew/Documents/Coding/Github/Socialcademy/Socialcademy/Socialcademy/ViewModels/PostsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
