@@ -24,6 +24,7 @@
 		49FBCE1F2BB3894A00C60817 /* NewPostForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCE1E2BB3894A00C60817 /* NewPostForm.swift */; };
 		49FBCE222BB4F17200C60817 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCE212BB4F17200C60817 /* PostsViewModel.swift */; };
 		49FBCE252BB4F8DF00C60817 /* PostsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCE242BB4F8DF00C60817 /* PostsRepository.swift */; };
+		49FBCE272BB65A2300C60817 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCE262BB65A2300C60817 /* Loadable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		49FBCE1E2BB3894A00C60817 /* NewPostForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostForm.swift; sourceTree = "<group>"; };
 		49FBCE212BB4F17200C60817 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
 		49FBCE242BB4F8DF00C60817 /* PostsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepository.swift; sourceTree = "<group>"; };
+		49FBCE262BB65A2300C60817 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				49FBCE192BB26EE100C60817 /* Models */,
 				49FBCE152BB26DC900C60817 /* Resources */,
 				49FBCE122BB21CA100C60817 /* GoogleService-Info.plist */,
+				49FBCE282BB65A2A00C60817 /* Utilities */,
 			);
 			path = Socialcademy;
 			sourceTree = "<group>";
@@ -194,6 +197,14 @@
 				49FBCE242BB4F8DF00C60817 /* PostsRepository.swift */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		49FBCE282BB65A2A00C60817 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				49FBCE262BB65A2300C60817 /* Loadable.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,6 +351,7 @@
 			files = (
 				49FBCE182BB26ED900C60817 /* Post.swift in Sources */,
 				49FBCDE42BB2152A00C60817 /* ContentView.swift in Sources */,
+				49FBCE272BB65A2300C60817 /* Loadable.swift in Sources */,
 				49FBCE1D2BB2902D00C60817 /* PostRow.swift in Sources */,
 				49FBCE252BB4F8DF00C60817 /* PostsRepository.swift in Sources */,
 				49FBCDE22BB2152A00C60817 /* SocialcademyApp.swift in Sources */,
