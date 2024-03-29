@@ -36,7 +36,12 @@ struct PostsRepository: PostsRepositoryProtocol {
 
 #if DEBUG
 struct PostsRepositoryStub: PostsRepositoryProtocol {
-    func fetchPosts() async throws -> [Post] { return [] }
+    
+    let state: Loadable<[Post]>
+    
+    func fetchPosts() async throws -> [Post] {
+        return try await state.simulate()
+    }
     func create(_ post: Post) async throws { }
 }
 #endif
