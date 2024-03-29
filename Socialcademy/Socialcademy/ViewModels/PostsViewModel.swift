@@ -17,4 +17,6 @@ class PostsViewModel: ObservableObject {
             self?.posts.insert(post, at: 0)
         }
     }
+    
+    
 }

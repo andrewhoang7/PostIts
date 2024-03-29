@@ -12,6 +12,17 @@ import FirebaseFirestoreSwift
 struct PostsRepository {
     static let postsReference = Firestore.firestore().collection("posts")
     
+    static func fetchPosts() async throws -> [Post] {
+        //fetch for posts in a reverse-chronological order
+        let snapshot = try await postsReference
+            .order(by: "timestamp", descending: true)
+            .getDocuments()
+        //convert each document into a Post instance
+        return snapshot.documents.compactMap { document in
+            try! document.data(as: Post.self)
+        }
+    }
+    
     static func create(_ post: Post) async throws {
         let document = postsReference.document(post.id.uuidString)
         try await document.setData(from: post)
