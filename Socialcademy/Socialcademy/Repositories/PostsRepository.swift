@@ -34,6 +34,13 @@ struct PostsRepository: PostsRepositoryProtocol {
     }
 }
 
+#if DEBUG
+struct PostsRepositoryStub: PostsRepositoryProtocol {
+    func fetchPosts() async throws -> [Post] { return [] }
+    func create(_ post: Post) async throws { }
+}
+#endif
+
 private extension DocumentReference {
     func setData<T: Encodable>(from value: T) async throws {
         return try await withCheckedThrowingContinuation { continuation in
