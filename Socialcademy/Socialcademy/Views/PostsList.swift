@@ -16,11 +16,51 @@ struct PostsList: View {
     
     var body: some View {
         NavigationView {
-            List(viewModel.posts) { post in
-                if searchText.isEmpty || post.contains(searchText) {
-                    PostRow(post: post)
+            Group {
+                switch viewModel.posts {
+                case .loading:
+                    ProgressView()
+                case let .error(error):
+                    VStack(alignment: .center, spacing: 10) {
+                        Text("Cannot Load Posts")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(.primary)
+                        Text(error.localizedDescription)
+                        Button(action: {
+                            viewModel.fetchPosts()
+                        }) {
+                            Text("Try Again")
+                                .padding(10)
+                                .background(RoundedRectangle(cornerRadius: 5).stroke(Color.secondary))
+                        }
+                        .padding(.top)
+                    }
+                    .font(.subheadline)
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.secondary)
+                    .padding()
+                case .empty:
+                    VStack(alignment: .center, spacing: 10) {
+                        Text("No Posts")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(.primary)
+                        Text("There aren’t any posts yet.")
+                            .font(.subheadline)
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(.secondary)
+                    }
+                    .padding()
+                case let .loaded(posts):
+                    List(posts) { post in
+                        if searchText.isEmpty || post.contains(searchText) {
+                            PostRow(post: post)
+                        }
+                    }
                 }
             }
+
             .searchable(text: $searchText)
             .navigationTitle("Posts")
             .toolbar {
@@ -30,12 +70,13 @@ struct PostsList: View {
                     Label("New Post", systemImage: "square.and.pencil")
                 })
             }
+            .sheet(isPresented: $showNewPostForm) {
+                NewPostForm(createAction: viewModel.makeCreateAction())
+            }
         }
         .onAppear() {
             viewModel.fetchPosts()
         }
-        .sheet(isPresented: $showNewPostForm) {
-            NewPostForm(createAction: viewModel.makeCreateAction())
-        }
+
     }
 }

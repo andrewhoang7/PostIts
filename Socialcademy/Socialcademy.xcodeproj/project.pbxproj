@@ -25,6 +25,7 @@
 		49FBCE222BB4F17200C60817 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCE212BB4F17200C60817 /* PostsViewModel.swift */; };
 		49FBCE252BB4F8DF00C60817 /* PostsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCE242BB4F8DF00C60817 /* PostsRepository.swift */; };
 		49FBCE272BB65A2300C60817 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCE262BB65A2300C60817 /* Loadable.swift */; };
+		49FBCE2B2BB67AC800C60817 /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCE2A2BB67AC800C60817 /* EmptyListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		49FBCE212BB4F17200C60817 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
 		49FBCE242BB4F8DF00C60817 /* PostsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepository.swift; sourceTree = "<group>"; };
 		49FBCE262BB65A2300C60817 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		49FBCE2A2BB67AC800C60817 /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				49FBCE142BB26DAF00C60817 /* Views */,
 				49FBCE192BB26EE100C60817 /* Models */,
 				49FBCE152BB26DC900C60817 /* Resources */,
+				49FBCE292BB67AB000C60817 /* Supporting Views */,
 				49FBCE122BB21CA100C60817 /* GoogleService-Info.plist */,
 				49FBCE282BB65A2A00C60817 /* Utilities */,
 			);
@@ -205,6 +208,14 @@
 				49FBCE262BB65A2300C60817 /* Loadable.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		49FBCE292BB67AB000C60817 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				49FBCE2A2BB67AC800C60817 /* EmptyListView.swift */,
+			);
+			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +364,7 @@
 				49FBCDE42BB2152A00C60817 /* ContentView.swift in Sources */,
 				49FBCE272BB65A2300C60817 /* Loadable.swift in Sources */,
 				49FBCE1D2BB2902D00C60817 /* PostRow.swift in Sources */,
+				49FBCE2B2BB67AC800C60817 /* EmptyListView.swift in Sources */,
 				49FBCE252BB4F8DF00C60817 /* PostsRepository.swift in Sources */,
 				49FBCDE22BB2152A00C60817 /* SocialcademyApp.swift in Sources */,
 				49FBCE1F2BB3894A00C60817 /* NewPostForm.swift in Sources */,
