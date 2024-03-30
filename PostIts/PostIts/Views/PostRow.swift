@@ -12,18 +12,14 @@ struct PostRow: View {
     typealias Action = () async throws -> Void
     
     @ObservedObject var viewModel: PostRowViewModel
-
-    
     @State private var showConfirmationDialog = false
-
-
     
     var body: some View {
         VStack(alignment: .leading, spacing: 10){
             HStack {
-                Text(viewModel.authorName)
+                Text(viewModel.author.name)
                     .font(.subheadline)
-                .fontWeight(.medium)
+                    .fontWeight(.medium)
                 Spacer()
                 Text(viewModel.timestamp.formatted(date: .abbreviated, time: .omitted))
                     .font(.caption)

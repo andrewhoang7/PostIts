@@ -10,6 +10,7 @@ import FirebaseFirestore
 import FirebaseFirestoreSwift
 
 protocol PostsRepositoryProtocol {
+    var user: User { get }
     func fetchAllPosts() async throws -> [Post]
     func fetchFavoritePosts() async throws -> [Post]
     func create(_ post: Post) async throws
@@ -19,7 +20,9 @@ protocol PostsRepositoryProtocol {
 }
 
 struct PostsRepository: PostsRepositoryProtocol {
-    let postsReference = Firestore.firestore().collection("posts_v1")
+    let postsReference = Firestore.firestore().collection("posts_v2")
+    
+    let user: User
 
     func fetchAllPosts() async throws -> [Post] {
         return try await fetchPosts(from: postsReference)
@@ -61,6 +64,8 @@ struct PostsRepository: PostsRepositoryProtocol {
 
 #if DEBUG
 struct PostsRepositoryStub: PostsRepositoryProtocol {
+    var user = User.testUser
+
     let state: Loadable<[Post]>
     
     func fetchAllPosts() async throws -> [Post] {
