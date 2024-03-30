@@ -17,6 +17,7 @@
 		49F1AD432BB87B33003620FA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1AD422BB87B33003620FA /* ProfileView.swift */; };
 		49F1AD452BB87D35003620FA /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1AD442BB87D35003620FA /* FormViewModel.swift */; };
 		49F1AD472BB8822E003620FA /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1AD462BB8822E003620FA /* PrimaryButtonStyle.swift */; };
+		49F1AD492BB88681003620FA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1AD482BB88681003620FA /* User.swift */; };
 		49FBCDE22BB2152A00C60817 /* PostItsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDE12BB2152A00C60817 /* PostItsApp.swift */; };
 		49FBCDE62BB2152B00C60817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FBCDE52BB2152B00C60817 /* Assets.xcassets */; };
 		49FBCDE92BB2152B00C60817 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FBCDE82BB2152B00C60817 /* Preview Assets.xcassets */; };
@@ -64,6 +65,7 @@
 		49F1AD422BB87B33003620FA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		49F1AD442BB87D35003620FA /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
 		49F1AD462BB8822E003620FA /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		49F1AD482BB88681003620FA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		49FBCDDE2BB2152A00C60817 /* PostIts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostIts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FBCDE12BB2152A00C60817 /* PostItsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItsApp.swift; sourceTree = "<group>"; };
 		49FBCDE52BB2152B00C60817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				49FBCE172BB26ED900C60817 /* Post.swift */,
+				49F1AD482BB88681003620FA /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				49F1AD452BB87D35003620FA /* FormViewModel.swift in Sources */,
 				49FBCE222BB4F17200C60817 /* PostsViewModel.swift in Sources */,
 				49F1AD372BB7C067003620FA /* MainTabView.swift in Sources */,
+				49F1AD492BB88681003620FA /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
