@@ -12,8 +12,7 @@ class PostsViewModel: ObservableObject {
     @Published var posts: Loadable<[Post]> = .loading
     
     enum Filter {
-        case all
-        case favorites
+        case all, author(User), favorites
     }
     
     private let postsRepository: PostsRepositoryProtocol
@@ -23,6 +22,8 @@ class PostsViewModel: ObservableObject {
         switch filter {
         case .all:
             return "Posts"
+        case let .author(author):
+            return "\(author.name)’s Posts"
         case .favorites:
             return "Favorites"
         }
@@ -95,6 +96,8 @@ private extension PostsRepositoryProtocol {
         switch filter {
         case .all:
             return try await fetchAllPosts()
+        case let .author(author):
+            return try await fetchPosts(by: author)
         case .favorites:
             return try await fetchFavoritePosts()
         }
