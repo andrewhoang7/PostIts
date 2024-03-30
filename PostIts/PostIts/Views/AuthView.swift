@@ -28,21 +28,23 @@ struct AuthView: View {
 
 private extension AuthView {
     struct CreateAccountForm: View {
+        @Environment(\.dismiss) private var dismiss
         @StateObject var viewModel: AuthViewModel.CreateAccountViewModel
         
         var body: some View {
             Form {
                 TextField("Name", text: $viewModel.name)
                     .textContentType(.name)
-                    .textInputAutocapitalization(.words)
                 TextField("Email", text: $viewModel.email)
                     .textContentType(.emailAddress)
-                    .textInputAutocapitalization(.never)
                 SecureField("Password", text: $viewModel.password)
                     .textContentType(.newPassword)
+            } footer: {
                 Button("Create Account", action: viewModel.submit)
+                    .buttonStyle(.primary)
+                Button("Sign In", action: dismiss.callAsFunction)
+                    .padding()
             }
-            .navigationTitle("Create Account")
             .onSubmit(viewModel.submit)
         }
     }
@@ -55,14 +57,34 @@ private extension AuthView {
             Form {
                 TextField("Email", text: $viewModel.email)
                     .textContentType(.emailAddress)
-                    .textInputAutocapitalization(.never)
                 SecureField("Password", text: $viewModel.password)
                     .textContentType(.password)
+            } footer: {
                 Button("Sign In", action: viewModel.submit)
+                    .buttonStyle(.primary)
+                footer()
+                    .padding()
+            }
+            .onSubmit(viewModel.submit)
+        }
+    }
+    
+    struct Form<Content: View, Footer: View>: View {
+        @ViewBuilder let content: () -> Content
+        @ViewBuilder let footer: () -> Footer
+        
+        var body: some View {
+            VStack {
+                Text("Socialcademy")
+                    .font(.title.bold())
+                content()
+                    .padding()
+                    .background(Color.secondary.opacity(0.15))
+                    .cornerRadius(10)
                 footer()
             }
-            .navigationTitle("Sign In")
-            .onSubmit(viewModel.submit)
+            .navigationBarHidden(true)
+            .padding()
         }
     }
 }
