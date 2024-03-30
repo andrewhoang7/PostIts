@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49F1AD332BB7A856003620FA /* Alert+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1AD322BB7A856003620FA /* Alert+Error.swift */; };
+		49F1AD352BB7AD35003620FA /* PostRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1AD342BB7AD35003620FA /* PostRowViewModel.swift */; };
 		49FBCDE22BB2152A00C60817 /* PostItsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDE12BB2152A00C60817 /* PostItsApp.swift */; };
 		49FBCDE42BB2152A00C60817 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDE32BB2152A00C60817 /* ContentView.swift */; };
 		49FBCDE62BB2152B00C60817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FBCDE52BB2152B00C60817 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		49F1AD322BB7A856003620FA /* Alert+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+Error.swift"; sourceTree = "<group>"; };
+		49F1AD342BB7AD35003620FA /* PostRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRowViewModel.swift; sourceTree = "<group>"; };
 		49FBCDDE2BB2152A00C60817 /* PostIts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostIts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FBCDE12BB2152A00C60817 /* PostItsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItsApp.swift; sourceTree = "<group>"; };
 		49FBCDE32BB2152A00C60817 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				49FBCE212BB4F17200C60817 /* PostsViewModel.swift */,
+				49F1AD342BB7AD35003620FA /* PostRowViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				49F1AD332BB7A856003620FA /* Alert+Error.swift in Sources */,
 				49FBCE182BB26ED900C60817 /* Post.swift in Sources */,
 				49FBCDE42BB2152A00C60817 /* ContentView.swift in Sources */,
+				49F1AD352BB7AD35003620FA /* PostRowViewModel.swift in Sources */,
 				49FBCE272BB65A2300C60817 /* Loadable.swift in Sources */,
 				49FBCE1D2BB2902D00C60817 /* PostRow.swift in Sources */,
 				49FBCE2B2BB67AC800C60817 /* EmptyListView.swift in Sources */,
