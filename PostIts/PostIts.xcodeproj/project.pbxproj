@@ -12,6 +12,10 @@
 		49F1AD372BB7C067003620FA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1AD362BB7C067003620FA /* MainTabView.swift */; };
 		49F1AD3A2BB876FC003620FA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 49F1AD392BB876FC003620FA /* FirebaseAuth */; };
 		49F1AD3D2BB87959003620FA /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1AD3C2BB87959003620FA /* AuthService.swift */; };
+		49F1AD3F2BB87AC5003620FA /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1AD3E2BB87AC5003620FA /* AuthViewModel.swift */; };
+		49F1AD412BB87AFD003620FA /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1AD402BB87AFD003620FA /* AuthView.swift */; };
+		49F1AD432BB87B33003620FA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1AD422BB87B33003620FA /* ProfileView.swift */; };
+		49F1AD452BB87D35003620FA /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1AD442BB87D35003620FA /* FormViewModel.swift */; };
 		49FBCDE22BB2152A00C60817 /* PostItsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDE12BB2152A00C60817 /* PostItsApp.swift */; };
 		49FBCDE62BB2152B00C60817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FBCDE52BB2152B00C60817 /* Assets.xcassets */; };
 		49FBCDE92BB2152B00C60817 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FBCDE82BB2152B00C60817 /* Preview Assets.xcassets */; };
@@ -54,6 +58,10 @@
 		49F1AD342BB7AD35003620FA /* PostRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRowViewModel.swift; sourceTree = "<group>"; };
 		49F1AD362BB7C067003620FA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		49F1AD3C2BB87959003620FA /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		49F1AD3E2BB87AC5003620FA /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		49F1AD402BB87AFD003620FA /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		49F1AD422BB87B33003620FA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		49F1AD442BB87D35003620FA /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
 		49FBCDDE2BB2152A00C60817 /* PostIts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostIts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FBCDE12BB2152A00C60817 /* PostItsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItsApp.swift; sourceTree = "<group>"; };
 		49FBCDE52BB2152B00C60817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -189,6 +197,8 @@
 				49FBCE1C2BB2902D00C60817 /* PostRow.swift */,
 				49FBCE1E2BB3894A00C60817 /* NewPostForm.swift */,
 				49F1AD362BB7C067003620FA /* MainTabView.swift */,
+				49F1AD402BB87AFD003620FA /* AuthView.swift */,
+				49F1AD422BB87B33003620FA /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,6 +226,8 @@
 			children = (
 				49FBCE212BB4F17200C60817 /* PostsViewModel.swift */,
 				49F1AD342BB7AD35003620FA /* PostRowViewModel.swift */,
+				49F1AD3E2BB87AC5003620FA /* AuthViewModel.swift */,
+				49F1AD442BB87D35003620FA /* FormViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -396,9 +408,13 @@
 				49FBCE2B2BB67AC800C60817 /* EmptyListView.swift in Sources */,
 				49F1AD3D2BB87959003620FA /* AuthService.swift in Sources */,
 				49FBCE252BB4F8DF00C60817 /* PostsRepository.swift in Sources */,
+				49F1AD432BB87B33003620FA /* ProfileView.swift in Sources */,
 				49FBCDE22BB2152A00C60817 /* PostItsApp.swift in Sources */,
 				49FBCE1F2BB3894A00C60817 /* NewPostForm.swift in Sources */,
+				49F1AD3F2BB87AC5003620FA /* AuthViewModel.swift in Sources */,
+				49F1AD412BB87AFD003620FA /* AuthView.swift in Sources */,
 				49FBCE1B2BB2884200C60817 /* PostsList.swift in Sources */,
+				49F1AD452BB87D35003620FA /* FormViewModel.swift in Sources */,
 				49FBCE222BB4F17200C60817 /* PostsViewModel.swift in Sources */,
 				49F1AD372BB7C067003620FA /* MainTabView.swift in Sources */,
 			);
