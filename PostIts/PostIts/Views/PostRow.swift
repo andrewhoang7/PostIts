@@ -18,9 +18,6 @@ struct PostRow: View {
         VStack(alignment: .leading, spacing: 10){
             HStack {
                 AuthorView(author: viewModel.author)
-                Text(viewModel.author.name)
-                    .font(.subheadline)
-                    .fontWeight(.medium)
                 Spacer()
                 Text(viewModel.timestamp.formatted(date: .abbreviated, time: .omitted))
                     .font(.caption)
@@ -50,23 +47,19 @@ struct PostRow: View {
 
             }
             .labelStyle(.iconOnly)
-            .buttonStyle(.borderless)
         }
-        .padding(.vertical)
+        .padding()
         .alert("Error", error: $viewModel.error)
     }
 }
 
 struct PostRow_Previews: PreviewProvider {
     static var previews: some View {
-        List {
-            PostRow(viewModel: PostRowViewModel(
-                post: Post.testPost,
-                deleteAction: {},
-                favoriteAction: {}))
-        }
+        PostRow(viewModel: PostRowViewModel(post: Post.testPost, deleteAction: {}, favoriteAction: {}))
+            .previewLayout(.sizeThatFits)
     }
 }
+
 
 private extension PostRow {
     struct FavoriteButton: View {

@@ -27,14 +27,15 @@ struct PostsList: View {
                 case .empty:
                     EmptyListView(title: "No Posts", message: "There aren't any posts yet")
                 case let .loaded(posts):
-                    List(posts) { post in
-                        if searchText.isEmpty || post.contains(searchText) {
-                            PostRow(viewModel: viewModel.makePostRowViewModel(for: post))
+                    ScrollView {
+                        ForEach(posts) { post in
+                            if searchText.isEmpty || post.contains(searchText) {
+                                PostRow(viewModel: viewModel.makePostRowViewModel(for: post))
+                            }
                         }
+                        .searchable(text: $searchText)
+                        .animation(.default, value: posts)
                     }
-                    .searchable(text: $searchText)
-                    .animation(.default, value: posts)
-                    
                 }
             }
 
