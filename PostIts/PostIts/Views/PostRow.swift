@@ -34,16 +34,19 @@ struct PostRow: View {
                     viewModel.favoritePost()
                 })
                 Spacer()
-                Button(role: .destructive, action: {
-                    showConfirmationDialog = true
-                }) {
-                    Label("Delete", systemImage: "trash")
+                if viewModel.canDeletePost {
+                    Button(role: .destructive, action: {
+                        showConfirmationDialog = true
+                    }) {
+                        Label("Delete", systemImage: "trash")
+                    }
+                    .confirmationDialog("Are you sure you want to delete this post?", isPresented: $showConfirmationDialog, titleVisibility: .visible) {
+                        Button("Delete", role: .destructive, action: {
+                            viewModel.deletePost()
+                        })
+                    }
                 }
-                .confirmationDialog("Are you sure you want to delete this post?", isPresented: $showConfirmationDialog, titleVisibility: .visible) {
-                    Button("Delete", role: .destructive, action: {
-                        viewModel.deletePost()
-                    })
-                }
+
             }
             .labelStyle(.iconOnly)
             .buttonStyle(.borderless)
