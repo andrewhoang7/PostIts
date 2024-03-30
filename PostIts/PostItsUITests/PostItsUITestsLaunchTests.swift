@@ -1,13 +1,13 @@
 //
-//  SocialcademyUITestsLaunchTests.swift
-//  SocialcademyUITests
+//  PostItsUITestsLaunchTests.swift
+//  PostItsUITests
 //
 //  Created by Andrew Hoang on 3/25/24.
 //
 
 import XCTest
 
-final class SocialcademyUITestsLaunchTests: XCTestCase {
+final class PostItsUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

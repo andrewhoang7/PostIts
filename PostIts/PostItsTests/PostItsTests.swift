@@ -1,14 +1,14 @@
 //
-//  SocialcademyTests.swift
-//  SocialcademyTests
+//  PostItsTests.swift
+//  PostItsTests
 //
 //  Created by Andrew Hoang on 3/25/24.
 //
 
 import XCTest
-@testable import Socialcademy
+@testable import PostIts
 
-final class SocialcademyTests: XCTestCase {
+final class PostItsTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

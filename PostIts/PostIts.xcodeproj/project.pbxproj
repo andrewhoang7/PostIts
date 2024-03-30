@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49FBCDE22BB2152A00C60817 /* SocialcademyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDE12BB2152A00C60817 /* SocialcademyApp.swift */; };
+		49FBCDE22BB2152A00C60817 /* PostItsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDE12BB2152A00C60817 /* PostItsApp.swift */; };
 		49FBCDE42BB2152A00C60817 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDE32BB2152A00C60817 /* ContentView.swift */; };
 		49FBCDE62BB2152B00C60817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FBCDE52BB2152B00C60817 /* Assets.xcassets */; };
 		49FBCDE92BB2152B00C60817 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FBCDE82BB2152B00C60817 /* Preview Assets.xcassets */; };
-		49FBCDF32BB2152B00C60817 /* SocialcademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDF22BB2152B00C60817 /* SocialcademyTests.swift */; };
-		49FBCDFD2BB2152B00C60817 /* SocialcademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDFC2BB2152B00C60817 /* SocialcademyUITests.swift */; };
-		49FBCDFF2BB2152B00C60817 /* SocialcademyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDFE2BB2152B00C60817 /* SocialcademyUITestsLaunchTests.swift */; };
+		49FBCDF32BB2152B00C60817 /* PostItsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDF22BB2152B00C60817 /* PostItsTests.swift */; };
+		49FBCDFD2BB2152B00C60817 /* PostItsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDFC2BB2152B00C60817 /* PostItsUITests.swift */; };
+		49FBCDFF2BB2152B00C60817 /* PostItsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCDFE2BB2152B00C60817 /* PostItsUITestsLaunchTests.swift */; };
 		49FBCE0D2BB2196F00C60817 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 49FBCE0C2BB2196F00C60817 /* FirebaseAnalytics */; };
 		49FBCE0F2BB2196F00C60817 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 49FBCE0E2BB2196F00C60817 /* FirebaseFirestore */; };
 		49FBCE112BB2196F00C60817 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 49FBCE102BB2196F00C60817 /* FirebaseFirestoreSwift */; };
@@ -47,15 +47,15 @@
 
 /* Begin PBXFileReference section */
 		49FBCDDE2BB2152A00C60817 /* PostIts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostIts.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		49FBCDE12BB2152A00C60817 /* SocialcademyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyApp.swift; sourceTree = "<group>"; };
+		49FBCDE12BB2152A00C60817 /* PostItsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItsApp.swift; sourceTree = "<group>"; };
 		49FBCDE32BB2152A00C60817 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49FBCDE52BB2152B00C60817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49FBCDE82BB2152B00C60817 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49FBCDEE2BB2152B00C60817 /* PostItsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostItsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49FBCDF22BB2152B00C60817 /* SocialcademyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyTests.swift; sourceTree = "<group>"; };
+		49FBCDF22BB2152B00C60817 /* PostItsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItsTests.swift; sourceTree = "<group>"; };
 		49FBCDF82BB2152B00C60817 /* PostItsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostItsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49FBCDFC2BB2152B00C60817 /* SocialcademyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyUITests.swift; sourceTree = "<group>"; };
-		49FBCDFE2BB2152B00C60817 /* SocialcademyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49FBCDFC2BB2152B00C60817 /* PostItsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItsUITests.swift; sourceTree = "<group>"; };
+		49FBCDFE2BB2152B00C60817 /* PostItsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		49FBCE122BB21CA100C60817 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		49FBCE162BB26DC900C60817 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		49FBCE172BB26ED900C60817 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				49FBCDE02BB2152A00C60817 /* PostIts */,
-				49FBCDF12BB2152B00C60817 /* SocialcademyTests */,
-				49FBCDFB2BB2152B00C60817 /* SocialcademyUITests */,
+				49FBCDF12BB2152B00C60817 /* PostItsTests */,
+				49FBCDFB2BB2152B00C60817 /* PostItsUITests */,
 				49FBCDDF2BB2152A00C60817 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 		49FBCDE02BB2152A00C60817 /* PostIts */ = {
 			isa = PBXGroup;
 			children = (
-				49FBCDE12BB2152A00C60817 /* SocialcademyApp.swift */,
+				49FBCDE12BB2152A00C60817 /* PostItsApp.swift */,
 				49FBCE232BB4F8CA00C60817 /* Repositories */,
 				49FBCE202BB4F16100C60817 /* ViewModels */,
 				49FBCE142BB26DAF00C60817 /* Views */,
@@ -140,21 +140,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		49FBCDF12BB2152B00C60817 /* SocialcademyTests */ = {
+		49FBCDF12BB2152B00C60817 /* PostItsTests */ = {
 			isa = PBXGroup;
 			children = (
-				49FBCDF22BB2152B00C60817 /* SocialcademyTests.swift */,
+				49FBCDF22BB2152B00C60817 /* PostItsTests.swift */,
 			);
-			path = SocialcademyTests;
+			path = PostItsTests;
 			sourceTree = "<group>";
 		};
-		49FBCDFB2BB2152B00C60817 /* SocialcademyUITests */ = {
+		49FBCDFB2BB2152B00C60817 /* PostItsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				49FBCDFC2BB2152B00C60817 /* SocialcademyUITests.swift */,
-				49FBCDFE2BB2152B00C60817 /* SocialcademyUITestsLaunchTests.swift */,
+				49FBCDFC2BB2152B00C60817 /* PostItsUITests.swift */,
+				49FBCDFE2BB2152B00C60817 /* PostItsUITestsLaunchTests.swift */,
 			);
-			path = SocialcademyUITests;
+			path = PostItsUITests;
 			sourceTree = "<group>";
 		};
 		49FBCE142BB26DAF00C60817 /* Views */ = {
@@ -366,7 +366,7 @@
 				49FBCE1D2BB2902D00C60817 /* PostRow.swift in Sources */,
 				49FBCE2B2BB67AC800C60817 /* EmptyListView.swift in Sources */,
 				49FBCE252BB4F8DF00C60817 /* PostsRepository.swift in Sources */,
-				49FBCDE22BB2152A00C60817 /* SocialcademyApp.swift in Sources */,
+				49FBCDE22BB2152A00C60817 /* PostItsApp.swift in Sources */,
 				49FBCE1F2BB3894A00C60817 /* NewPostForm.swift in Sources */,
 				49FBCE1B2BB2884200C60817 /* PostsList.swift in Sources */,
 				49FBCE222BB4F17200C60817 /* PostsViewModel.swift in Sources */,
@@ -377,7 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49FBCDF32BB2152B00C60817 /* SocialcademyTests.swift in Sources */,
+				49FBCDF32BB2152B00C60817 /* PostItsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,8 +385,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49FBCDFF2BB2152B00C60817 /* SocialcademyUITestsLaunchTests.swift in Sources */,
-				49FBCDFD2BB2152B00C60817 /* SocialcademyUITests.swift in Sources */,
+				49FBCDFF2BB2152B00C60817 /* PostItsUITestsLaunchTests.swift in Sources */,
+				49FBCDFD2BB2152B00C60817 /* PostItsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +532,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "Socialcademy/Resources/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "\"PostIts/Resources/Preview\\ Content\"";
 				DEVELOPMENT_TEAM = PB8XCD5RSV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -547,7 +547,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = andrewhoang.Socialcademy;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewhoang.PostIts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -562,7 +562,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "Socialcademy/Resources/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "\"PostIts/Resources/Preview\\ Content\"";
 				DEVELOPMENT_TEAM = PB8XCD5RSV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -577,7 +577,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = andrewhoang.Socialcademy;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewhoang.PostIts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -596,7 +596,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = andrewhoang.SocialcademyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewhoang.PostItsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -616,7 +616,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = andrewhoang.SocialcademyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewhoang.PostItsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -634,12 +634,12 @@
 				DEVELOPMENT_TEAM = PB8XCD5RSV;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = andrewhoang.SocialcademyUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewhoang.PostItsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Socialcademy;
+				TEST_TARGET_NAME = PostIts;
 			};
 			name = Debug;
 		};
@@ -652,12 +652,12 @@
 				DEVELOPMENT_TEAM = PB8XCD5RSV;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = andrewhoang.SocialcademyUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewhoang.PostItsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Socialcademy;
+				TEST_TARGET_NAME = PostIts;
 			};
 			name = Release;
 		};

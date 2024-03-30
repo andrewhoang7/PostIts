@@ -9,21 +9,21 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>andrewhoang.Socialcademy</string>
+	<string>andrewhoang.PostIts</string>
 	<key>PROJECT_ID</key>
 	<string>socialcademy-345f3</string>
 	<key>STORAGE_BUCKET</key>
 	<string>socialcademy-345f3.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:123818335542:ios:8e972fef14c2e25a57e797</string>
 </dict>

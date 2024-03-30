@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Socialcademy
+//  PostIts
 //
 //  Created by Andrew Hoang on 3/25/24.
 //

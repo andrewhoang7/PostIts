@@ -1,6 +1,6 @@
 //
 //  PostsRepository.swift
-//  Socialcademy
+//  PostIts
 //
 //  Created by Andrew Hoang on 3/27/24.
 //

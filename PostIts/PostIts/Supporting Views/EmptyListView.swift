@@ -1,6 +1,6 @@
 //
 //  EmptyListView.swift
-//  Socialcademy
+//  PostIts
 //
 //  Created by Andrew Hoang on 3/28/24.
 //

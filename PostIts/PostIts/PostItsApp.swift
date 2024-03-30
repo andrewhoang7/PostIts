@@ -1,6 +1,6 @@
 //
-//  SocialcademyApp.swift
-//  Socialcademy
+//  PostItsApp.swift
+//  PostIts
 //
 //  Created by Andrew Hoang on 3/25/24.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import Firebase
 
 @main
-struct SocialcademyApp: App {
+struct PostItsApp: App {
     
     init() {
         FirebaseApp.configure()
