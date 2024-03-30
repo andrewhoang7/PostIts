@@ -32,6 +32,12 @@ struct PostRow: View {
         }
         .padding(.vertical)
     }
+    
+    private func deletePost() {
+        Task {
+            try! await deleteAction()
+        }
+    }
 }
 
 struct PostRow_Previews: PreviewProvider {

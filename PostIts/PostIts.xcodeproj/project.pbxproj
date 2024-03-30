@@ -99,7 +99,7 @@
 		49FBCDD52BB2152A00C60817 = {
 			isa = PBXGroup;
 			children = (
-				49FBCDE02BB2152A00C60817 /* Socialcademy */,
+				49FBCDE02BB2152A00C60817 /* PostIts */,
 				49FBCDF12BB2152B00C60817 /* SocialcademyTests */,
 				49FBCDFB2BB2152B00C60817 /* SocialcademyUITests */,
 				49FBCDDF2BB2152A00C60817 /* Products */,
@@ -116,7 +116,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		49FBCDE02BB2152A00C60817 /* Socialcademy */ = {
+		49FBCDE02BB2152A00C60817 /* PostIts */ = {
 			isa = PBXGroup;
 			children = (
 				49FBCDE12BB2152A00C60817 /* SocialcademyApp.swift */,
@@ -129,7 +129,7 @@
 				49FBCE122BB21CA100C60817 /* GoogleService-Info.plist */,
 				49FBCE282BB65A2A00C60817 /* Utilities */,
 			);
-			path = Socialcademy;
+			path = PostIts;
 			sourceTree = "<group>";
 		};
 		49FBCDE72BB2152B00C60817 /* Preview Content */ = {
