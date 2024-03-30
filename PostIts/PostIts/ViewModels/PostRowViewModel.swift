@@ -21,7 +21,7 @@ class PostRowViewModel: ObservableObject {
     private let favoriteAction: Action
     
     var canDeletePost: Bool { deleteAction != nil }
-    
+
     init(post: Post, deleteAction: Action?, favoriteAction: @escaping Action) {
         self.post = post
         self.deleteAction = deleteAction

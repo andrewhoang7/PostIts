@@ -12,6 +12,7 @@ import FirebaseFirestoreSwift
 protocol PostsRepositoryProtocol {
     var user: User { get }
     func fetchAllPosts() async throws -> [Post]
+    func fetchPosts(by author: User) async throws -> [Post]
     func fetchFavoritePosts() async throws -> [Post]
     func create(_ post: Post) async throws
     func delete(_ post: Post) async throws
@@ -23,9 +24,14 @@ struct PostsRepository: PostsRepositoryProtocol {
     let postsReference = Firestore.firestore().collection("posts_v2")
     
     let user: User
+    
 
     func fetchAllPosts() async throws -> [Post] {
         return try await fetchPosts(from: postsReference)
+    }
+    
+    func fetchPosts(by author: User) async throws -> [Post] {
+        return try await fetchPosts(from: postsReference.whereField("author.id", isEqualTo: author.id))
     }
 
     func fetchFavoritePosts() async throws -> [Post] {
@@ -70,6 +76,10 @@ struct PostsRepositoryStub: PostsRepositoryProtocol {
     let state: Loadable<[Post]>
     
     func fetchAllPosts() async throws -> [Post] {
+        return try await state.simulate()
+    }
+    
+    func fetchPosts(by author: User) async throws -> [Post] {
         return try await state.simulate()
     }
     
