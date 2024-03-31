@@ -15,17 +15,18 @@ struct PostsList: View {
     @State private var showNewPostForm = false
     
     var body: some View {
-        NavigationView {
             Group {
                 switch viewModel.posts {
                 case .loading:
                     ProgressView()
                 case let .error(error):
-                    EmptyListView(title: "Cannot Load Posts", message: error.localizedDescription) {
+                    EmptyListView(title: "Cannot Load Posts", 
+                                  message: error.localizedDescription) {
                         viewModel.fetchAllPosts()
                     }
                 case .empty:
-                    EmptyListView(title: "No Posts", message: "There aren't any posts yet")
+                    EmptyListView(title: "No Posts", 
+                                  message: "There aren't any posts yet")
                 case let .loaded(posts):
                     ScrollView {
                         ForEach(posts) { post in
@@ -50,10 +51,9 @@ struct PostsList: View {
             .sheet(isPresented: $showNewPostForm) {
                 NewPostForm(viewModel: viewModel.makeNewPostViewModel())
             }
-        }
-        .onAppear() {
-            viewModel.fetchAllPosts()
-        }
+            .onAppear() {
+                viewModel.fetchAllPosts()
+            }
     }
 }
 
@@ -63,10 +63,13 @@ struct PostList_Previews: PreviewProvider {
     @MainActor
     private struct ListPreview: View {
         let state: Loadable<[Post]>
+        
         var body: some View {
             let postsRepository = PostsRepositoryStub(state: state)
             let viewModel = PostsViewModel(postsRepository: postsRepository)
-            PostsList(viewModel: viewModel)
+            NavigationView {
+                PostsList(viewModel: viewModel)
+            }
         }
     }
     
