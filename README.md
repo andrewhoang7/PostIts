@@ -3,6 +3,8 @@
 
 Some implemented features include search, the ability to “favorite” a post, and a separate tab to view posts that have been “favorited”. 
 
+This app was written with an MVVM architecture and with best practices kept in mind, such as creating directories for “supporting views”, generic implementations where possible, Swift’s data-binding features for more loosely coupled code, creating previews for capturing all different states that might occur in a view within Xcode, and using async/await syntax for cleaner networking code in making requests.
+
 # Features
 
 ## Login
