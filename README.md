@@ -1,6 +1,5 @@
-"PostIts" is a basic iOS application that tests implementations of a 
+"PostIts" is an iOS application, written entirely in Swift, that works with Google’s Firebase Firestore as well as Firebase Authentication to store “posts” that a user can create, view, and delete. 
 
-The application works with Google’s Firebase Firestore as well as Firebase Authentication to store “posts” that a user can create, view, and delete. 
 Some implemented features include search, the ability to “favorite” a post, and a separate tab to view posts that have been “favorited”. 
 
 #Features
