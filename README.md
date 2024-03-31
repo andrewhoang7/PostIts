@@ -9,6 +9,8 @@ This app was written with an MVVM architecture and with best practices kept in m
 
 ## Login
 
+Below are some clips showing a few of the functionalties available.
+
 https://github.com/andrewhoang7/PostIts/assets/37169848/eb8a2f39-e7e9-4d31-82fd-71392abe1074
 
 ## Creating a Post
